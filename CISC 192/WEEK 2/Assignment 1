@@ -1,0 +1,28 @@
+This is my Assignment for student_info.cpp
+
+```C++
+print ("this is assignment 1")
+# This is my comment
+```
+
+#include <iostream>                   
+#include <string>                     
+using namespace std;                  
+                                      
+int main() {                          
+    string name;                      
+    int age = 0;                      
+    double gpa = 0.0;                 
+    cout << "Enter your first name: ";
+    cin >> name;                      
+    cout << endl << "Enter your age: "
+    cin >> age;                       
+    cout << endl << "Enter your gpa: "
+    cin >>  gpa;                      
+                                      
+    cout << endl;                     
+    cout << "Student Information" << e
+    cout << "Name: " << name << endl; 
+    cout << "Age: " << age << endl;   
+    cout << "GPA: " << gpa << endl;   
+}                                     
