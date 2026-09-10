@@ -1,0 +1,33 @@
+This is my score_average.cpp
+
+This is my Assignment 2 code
+
+```C++
+print(this is my assignment 2 code)
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    int score1 = 0;
+    int score2 = 0;
+    int score3 = 0;
+
+    cout << "Enter three scores: ";
+    cin >> score1 >> score2 >> score3;
+
+    int total = score1 + score2 + score3;
+
+    // Convert the total to double so division keeps any decimal part.
+    double average = static_cast<double>(total) / 3;
+
+    cout << "Scores: " << score1 << " " << score2 << " " << score3 << endl;
+    cout << "Total: " << total << endl;
+    cout << "Average: " << average << endl;
+
+
+    return 0;
+}
+
+My comment: 
+Static_cast<double> is used to temporarily convert a calculation from an integer into a decimal-capable number.
