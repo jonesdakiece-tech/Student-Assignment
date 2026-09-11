@@ -1,0 +1,27 @@
+This is my character_input assignment
+
+```C++
+print("This is my assignment 3")
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    char firstCharacter;
+    char secondCharacter;
+
+    cout << "Enter two characters separated by a space: ";
+    cin >> firstCharacter;
+    cin >> secondCharacter;
+
+    cout << "First: [" << firstCharacter << "]" << endl;
+    cout << "Second: [" << secondCharacter << "]" << endl;
+
+    return 0;
+}
+
+Comment: 
+1. a is what is stored in first character
+2. b is what is stored in second character
+3. the space between the characters are igored because of the use of >>
+4. >> ignores the space to read the next character.
