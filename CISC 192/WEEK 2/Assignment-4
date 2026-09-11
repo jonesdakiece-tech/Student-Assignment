@@ -1,0 +1,35 @@
+This is my purchase_tota.cpp
+
+```C++
+print("This is my assignment 4")
+```
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double itemPrice = 0.0;
+    int quantityPurchased = 0;
+    double taxRate = 0.0775;
+
+    cout << "Item Price: ";
+    cin >> itemPrice;
+
+    cout << "Quantity Purchased: ";
+    cin >> quantityPurchased;
+
+    double subtotal = itemPrice * quantityPurchased;
+    double salesTax = subtotal * taxRate;
+    double finalTotal = subtotal + salesTax;
+
+   cout << fixed << setprecision(2);
+
+    cout << "Subtotal: $" << subtotal << endl;
+    cout << "Tax: $" << salesTax << endl;
+    cout << "Total: $" << finalTotal << endl;
+
+    return 0;
+}
+
+Comment:
+The reason setprecion 2 is uded is to show on the screen the numberical value 2 places after the decimal.
